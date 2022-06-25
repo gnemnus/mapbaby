@@ -1,4 +1,4 @@
-# 🍃 Next.js Leaflet Starter
+# map
 
 ```bash
 npm i

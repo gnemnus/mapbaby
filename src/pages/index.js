@@ -6,7 +6,7 @@ import styles from "../../styles/Home.module.css";
 
 // import App from "../components/App";
 
-const DEFAULT_CENTER = [38.907132, -77.036546];
+const DEFAULT_CENTER = [40.776676, -73.971321];
 
 export default function Home() {
   return (

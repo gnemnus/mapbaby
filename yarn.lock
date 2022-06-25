@@ -38,18 +38,6 @@
   "resolved" "https://registry.npmjs.org/@react-leaflet/core/-/core-1.1.1.tgz"
   "version" "1.1.1"
 
-"@types/geojson@*":
-  "integrity" "sha512-1rkryxURpr6aWP7R786/UQOkJ3PcpQiWkAXBmdWc7ryFWqN6a4xfK7BtjXvFBKO9LjQ+MWQSWxYeZX1OApnArA=="
-  "resolved" "https://registry.npmjs.org/@types/geojson/-/geojson-7946.0.8.tgz"
-  "version" "7946.0.8"
-
-"@types/leaflet@^1.0.69":
-  "integrity" "sha512-VwAYom2pfIAf/pLj1VR5aLltd4tOtHyvfaJlNYCoejzP2nu52PrMi1ehsLRMUS+bgafmIIKBV1cMfKeS+uJ0Vg=="
-  "resolved" "https://registry.npmjs.org/@types/leaflet/-/leaflet-1.7.11.tgz"
-  "version" "1.7.11"
-  dependencies:
-    "@types/geojson" "*"
-
 "acorn-node@^1.8.2":
   "integrity" "sha512-8mt+fslDufLYntIoPAaIMUe/lrbrehIiwmR3t2k9LljIzoigEPF27eLk2hy8zSGzmR/ogr7zbRKINMo1u0yh5A=="
   "resolved" "https://registry.npmjs.org/acorn-node/-/acorn-node-1.8.2.tgz"
@@ -294,11 +282,6 @@
   "resolved" "https://registry.npmjs.org/leaflet/-/leaflet-1.7.1.tgz"
   "version" "1.7.1"
 
-"leaflet@1.0.1":
-  "integrity" "sha512-5BibnaQVLpncxHp8xMQUCE+Z90H38hqYMRpLEjtaCM0R1bHC8/4zSUDlv52Hby0dd1vW9AdvkeHkVXdPo3b78w=="
-  "resolved" "https://registry.npmjs.org/leaflet/-/leaflet-1.0.1.tgz"
-  "version" "1.0.1"
-
 "lilconfig@^2.0.5":
   "integrity" "sha512-xaYmXZtTHPAw5m+xLN8ab9C+3a8YmV3asNSPOATITbtwrfbwaLJj8h66H1WMIpALCkqsIzK3h7oQ+PdX+LQ9Eg=="
   "resolved" "https://registry.npmjs.org/lilconfig/-/lilconfig-2.0.5.tgz"
@@ -490,7 +473,7 @@
   dependencies:
     "@react-leaflet/core" "^1.1.1"
 
-"react@^16.0.0", "react@^16.8.0 || ^17.0.0", "react@^17.0.1", "react@^17.0.2 || ^18.0.0-0", "react@>= 16.8.0 || 17.x.x || 18.x.x", "react@17.0.2":
+"react@^16.8.0 || ^17.0.0", "react@^17.0.1", "react@^17.0.2 || ^18.0.0-0", "react@>= 16.8.0 || 17.x.x || 18.x.x", "react@17.0.2":
   "integrity" "sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA=="
   "resolved" "https://registry.npmjs.org/react/-/react-17.0.2.tgz"
   "version" "17.0.2"
@@ -610,21 +593,6 @@
   "integrity" "sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw=="
   "resolved" "https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz"
   "version" "1.0.2"
-
-"wrld-react@^1.0.0":
-  "integrity" "sha512-E2OKMaTWRrnxvqqkQwSlonXvNNm0p2yfqbgt68rmeSEMjo9Y6jl6rFnySgAZNBz53alf2gviu3GtGgZCv+meCA=="
-  "resolved" "https://registry.npmjs.org/wrld-react/-/wrld-react-1.0.0.tgz"
-  "version" "1.0.0"
-  dependencies:
-    "wrld.js" "^1.0.0"
-
-"wrld.js@^1.0.0":
-  "integrity" "sha512-WYXbzz4cFSYLUhQvXOuc7rPdzdWqs5BJRCd/T9qve/IRiikERm5/+h2p3x/Hlobcp4CTeOVICpdJDhzERj/d7w=="
-  "resolved" "https://registry.npmjs.org/wrld.js/-/wrld.js-1.1.0.tgz"
-  "version" "1.1.0"
-  dependencies:
-    "@types/leaflet" "^1.0.69"
-    "leaflet" "1.0.1"
 
 "xtend@^4.0.2":
   "integrity" "sha512-LKYU1iAXJXUgAXn9URjiu+MWhyUXHsvfp7mcuYm9dSUKK0/CjtrUwFAxD82/mCWbtLsGjFIad0wIsod4zrTAEQ=="
